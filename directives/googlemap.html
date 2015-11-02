@@ -1,0 +1,12 @@
+<ui-gmap-google-map center="map.center" zoom="map.zoom" dragging="map.dragging" bounds="map.bounds" events="map.events" options="map.options" pan="true" control="map.control">
+  <ui-gmap-drag-zoom keyboardkey="'alt'"></ui-gmap-drag-zoom>
+  <ui-gmap-markers models="map.markers" coords="'self'" icon="'icon'" click="onMarkerClicked" options="'options'" events="map.markersEvents" docluster="true" clusteroptions="map.clusterOptions">
+    <ui-gmap-windows show="'showWindow'" closeclick="'closeClick'" ng-cloak="">
+      <div ng-controller="InfoController"><a ng-class="deleteIcon" ng-click="removeCurrentMarker()" class="btn">REMOVE</a>
+        <p ng-non-bindable="">This is an info window at {{ latitude | number:4 }}, {{ longitude | number:4 }}!</p>
+        <p class="muted">My marker will stay open when the window is popped up!</p>
+        
+      </div>
+    </ui-gmap-windows>
+  </ui-gmap-markers>
+</ui-gmap-google-map>
