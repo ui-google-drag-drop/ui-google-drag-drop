@@ -1,4 +1,4 @@
-# ui-google-drag-drop
+#ui-google-drag-drop
 
 http://angular-ui.github.io/angular-google-maps AngularJS directives for the Google Maps Javascript API git module is used for Gap Map
 
