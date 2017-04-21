@@ -7,4 +7,6 @@ https://github.com/fatlinesofcode/ngDraggable module used to achive Drag and Dro
 By using above two modules, Google map drag and drop marker creation is achieved. 
 
 
+ref
+
 
